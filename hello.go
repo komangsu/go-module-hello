@@ -1,5 +1,5 @@
 package go_module_hello
 
-func Hello() string {
-	return "Hello is there anyone ?"
+func Hello(name string) string {
+	return "Hello is there anyone ? yes, it's me " + name
 }
